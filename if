@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("\n DAME UN NUMERO ENTERO");
+	scanf("%i,&a");
+	printf("\nDAME OTRO NUMERO ENTERO");
+	scanf("%i,&b");
+
+	if (a>b)
+	{
+		printf("\n %i es mayor que %i", a, b);
+	}
+	printf("\n fin");
+	return 0;
+}
