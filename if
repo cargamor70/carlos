@@ -3,9 +3,9 @@ int main()
 {
 	int a,b;
 	printf("\n DAME UN NUMERO ENTERO");
-	scanf("%i,&a");
+	scanf("%i",&a);
 	printf("\nDAME OTRO NUMERO ENTERO");
-	scanf("%i,&b");
+	scanf("%i",&b);
 
 	if (a>b)
 	{
